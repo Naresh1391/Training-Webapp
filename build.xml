@@ -3,7 +3,7 @@
 	<property name="build.dir" value="build/classes" />
 	<property name="source.dir" value="src" />
 	<property name="dist" value="output" />
-	<property name="tomcat-lib" location="D:\apache_tomcat_6\lib"/>
+	<property name="tomcat-lib" location="D:\apache-tomcat-8.0.23\lib"/>
 	<property name="reports" location="reports"/>
 	<property name="data" location="reports"/>
 
