@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="PC254205" name="test.unit.TestLoginServlet" skipped="2" tests="5" time="0.323" timestamp="2016-04-05T09:24:37">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sun.management.compiler" value="HotSpot Client Compiler" />
+    <property name="dist" value="output" />
+    <property name="os.name" value="Windows 7" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_25\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_25\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_25\jre\classes" />
+    <property name="sun.desktop" value="windows" />
+    <property name="tomcat-lib" value="D:\apache_tomcat_6\lib" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020" />
+    <property name="java.runtime.version" value="1.8.0_25-b18" />
+    <property name="user.name" value="393476" />
+    <property name="ant.file.Web-LoginProject" value="D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\build.xml" />
+    <property name="reports" value="D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\reports" />
+    <property name="build.dir" value="build/classes" />
+    <property name="data" value="D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\reports" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_25\jre\bin" />
+    <property name="ant.project.default-target" value="build-war" />
+    <property name="ant.project.name" value="Web-LoginProject" />
+    <property name="java.version" value="1.8.0_25" />
+    <property name="user.timezone" value="Asia/Calcutta" />
+    <property name="sun.arch.data.model" value="32" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_25\jre\lib\endorsed" />
+    <property name="sun.cpu.isalist" value="pentium_pro+mmx pentium_pro pentium+mmx pentium i486 i386 i86" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="\" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_25\jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\build.xml" />
+    <property name="os.version" value="6.1" />
+    <property name="ant.file.type.Web-LoginProject" value="file" />
+    <property name="path.separator" value=";" />
+    <property name="java.vm.version" value="25.25-b02" />
+    <property name="user.variant" value="" />
+    <property name="ant.library.dir" value="D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="user.script" value="" />
+    <property name="user.home" value="C:\Users\393476" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_25\jre\bin;C:\windows\Sun\Java\bin;C:\windows\system32;C:\windows;C:/Program Files/Java/jre7/bin/client;C:/Program Files/Java/jre7/bin;C:/Program Files/Java/jre7/lib/i386;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Windows Imaging\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;C:\Program Files\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;C:\Program Files\Microsoft Application Virtualization Client;C:\Program Files\Intel\OpenCL SDK\2.0\bin\x86;C:\Program Files\IBM\Personal Communications\;C:\Program Files\IBM\Trace Facility\;C:\Program Files\Java\jdk1.8.0_25\bin;D:\GF11\apache-ant-1.9.6-bin\apache-ant-1.9.6\bin;C:\Program Files\Git\bin;C:\Program Files\Java\jdk1.8.0_25\bin;D:\GF11\apache-ant-1.9.6-bin\apache-ant-1.9.6\bin;C:\Program Files\Git\bin;D:\eclipse;;." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner test.unit.TestLoginServlet skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=true formatter=org.apache.tools.ant.taskdefs.optional.junit.SummaryJUnitResultFormatter showoutput=true outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\reports\test-result.xml crashfile=D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\junitvmwatcher4813394423555632105.properties propsfile=D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\junit138130098552305995.properties" />
+    <property name="java.class.path" value="D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\build\classes;C:\Program Files\Java\jdk1.8.0_25\lib\tools.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\lib\junit-4.2.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\lib\mockito-all-1.10.19.jar;D:\apache_tomcat_6\lib\servlet-api.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\WebContent\WEB-INF\lib\weld-servlet-1.1.33.Final.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\Spring-lib\com.springsource.org.apache.commons.lang-2.1.0.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\Spring-lib\com.springsource.org.apache.commons.logging-1.1.1.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\Spring-lib\spring-aop-4.1.5.RELEASE.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\Spring-lib\spring-aspects-4.1.5.RELEASE.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\Spring-lib\spring-beans-4.1.5.RELEASE.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\Spring-lib\spring-context-4.1.5.RELEASE.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\Spring-lib\spring-context-support-4.1.5.RELEASE.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\Spring-lib\spring-core-4.1.5.RELEASE.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\Spring-lib\spring-expression-4.1.5.RELEASE.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\Spring-lib\spring-test-4.1.5.RELEASE.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\Spring-lib\spring-web-4.1.5.RELEASE.jar;D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp\Spring-lib\spring-webmvc-4.1.5.RELEASE.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-launcher.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit.jar;D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant-junit4.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="java.io.tmpdir" value="C:\Users\393476\AppData\Local\Temp\" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="os.arch" value="x86" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_25\jre\lib\ext;C:\windows\Sun\Java\lib\ext" />
+    <property name="user.dir" value="D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) Client VM" />
+    <property name="basedir" value="D:\Jenkins\Continuous-Integration-Jenkins-Gradle\CI-Projects\LoginApp" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="D:\eclipse\plugins\org.apache.ant_1.9.4.v201504302020\lib\ant.jar" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="source.dir" value="src" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="ant.project.invoked-targets" value="build-war" />
+  </properties>
+  <testcase classname="test.unit.TestLoginServlet" name="testDoPostHttpServletRequestHttpServletResponse" time="0.26" />
+  <testcase classname="test.unit.TestLoginServlet" name="testDoGetHttpServletRequestHttpServletResponse" time="0.003" />
+  <testcase classname="test.unit.TestLoginServlet" name="testDestroy" time="0.0">
+    <skipped />
+  </testcase>
+  <testcase classname="test.unit.TestLoginServlet" name="testLoginServlet" time="0.002" />
+  <testcase classname="test.unit.TestLoginServlet" name="testInitServletConfig" time="0.0">
+    <skipped />
+  </testcase>
+  <system-out><![CDATA[Login doPost...
+User: ashok | password: morYa
+The service object is  Mock for UserService, hashCode: 33553623
+Result: Login successfull...
+Login doGet...
+Result: We donot expose get method
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
